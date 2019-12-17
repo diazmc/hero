@@ -13,8 +13,10 @@ body {
 .container {
     width: 100%;
     height: 100vh;
-    background: url('horizon.jpg') center no-repeat;
+    /* background: url('horizon.jpg') center no-repeat; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('horizon.jpg');
     background-size: cover;
+
     overflow-x: hidden;
 }
 
