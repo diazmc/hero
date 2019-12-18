@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif&display=swap');
 
 html, body {
     margin: 0;
@@ -64,8 +66,34 @@ header {
 
 .hero {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 60%;
+    left: 5%;
+    transform: translateY(-60%);
+}
+
+.headline {
+    text-align: right;
+}
+
+.visit {
+    font-family: 'Tangerine', cursive;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.main-headline {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 8em;
+    font-family: 'Inia Serif', serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+
+}
+
+.sub-headline {
+    margin: 0;
+    font-weight: 300;
 }
 
 .media {
@@ -75,10 +103,6 @@ header {
     bottom: 15%;
     right: 0;
     justify-content: space-around;
-}
-
-.icons {
-
 }
 
 .icons li {
@@ -108,8 +132,6 @@ header {
     width: 67px;
     height: 67px;
 }
-
-
 
 .website {
     position: relative;
