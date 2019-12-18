@@ -71,15 +71,56 @@ header {
 .media {
     position: absolute;
     display: flex;
-    bottom: 0;
+    width: 50%;
+    bottom: 15%;
     right: 0;
+    justify-content: space-around;
+}
+
+.icons {
+
 }
 
 .icons li {
     display: inline-block;
+    font-size: 30px;
+    position: relative;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.icons li::after{
+    content: "";
+    position: absolute;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    border: 1px solid #fff;
+    border-width: .017em;
+    border-radius: 50%;
+    transition: 350ms;
+}
+
+.icons li:hover::after {
+    width: 67px;
+    height: 67px;
+}
+
+
+
+.website {
+    position: relative;
+    width: 50%;
 }
 
 .website a{
+    position: absolute;
     text-decoration: none;
     color: #fff;
+    bottom: 0;
+    left: 30%;
+    transform: translateX(-30%);
 }
